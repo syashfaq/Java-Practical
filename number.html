@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Examole</title>
+  </head>
+  <body>
+    <h1>Number Practice</h1>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo4"></p>
+    <script>
+      // if you add two numbers, the result will be a number:
+      let x = 10;
+      let y = 20;
+      let z = x + y;
+      document.getElementById("demo").innerHTML = z;
+      // If you add two strings, the result will be a string concatenation:
+      let a = "10";
+      let b = "30";
+      let c = a + b;
+      document.getElementById("demo1").innerHTML = c;
+      //If you add a number and a string, the result will be a string concatenation:
+      let p = 10;
+      let q = "20";
+      let r = p + q;
+      document.getElementById("demo2").innerHTML = r;
+      // A common mistake is to expect this result to be 30:
+      let m = 10;
+      let n = 20;
+      let o = "The total is " + m + n;
+      document.getElementById("demo4").innerHTML = o;
+    </script>
+  </body>
+</html>
