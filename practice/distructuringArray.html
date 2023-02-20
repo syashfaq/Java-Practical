@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distructuring</title>
+</head>
+<body>
+    <h1>Distructuring</h1>
+    <p id="demo"></p>
+    <script>
+        // let user = ["yahooBaba", 25, "Delhi",["Male",250000]];
+        // let = [name, age, city,[gender,salary] ] = user;
+        // document.getElementById('demo').innerHTML = `${name}<br> ${age} <br>${city} <br>${salary}<br> ${gender}`;
+        function user(){
+            return ["Ashfaq",, "Parbhani"]
+        }
+        let [name, age= 35, city] = user();
+        document.getElementById('demo').innerHTML = `${name}<br> ${age} <br>${city} `;
+    </script>
+
+</body>
+</html>
