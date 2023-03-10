@@ -7,13 +7,13 @@
     <title>callback</title>
 </head>
 <body>
-    <h1>Callback Function</h1>
+    <h1>Callback Function practice</h1>
     <script>
         function sayHello(){
-            console.log("Hello!");
+            console.log("Hello! Welcome");
         };
         function sayHi(){
-            console.log("Hi...");
+            console.log("Hi... Everyone");
         };
         function add(num1, num2, callback){
             console.log(num1 + num2);
@@ -21,7 +21,7 @@
 
         };
         add(30,35,sayHello);
-        add(45,5,sayHi);
+        add(45,55,sayHi);
         add(10,20,function (){
             console.log("bye.......");
         });
